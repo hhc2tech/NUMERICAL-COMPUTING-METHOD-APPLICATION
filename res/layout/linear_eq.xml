@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/s1"
+    android:orientation="vertical" >
+    <ScrollView android:id="@+id/scrvw10"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+       <RelativeLayout
+ android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+   <TextView
+          android:id="@+id/textView1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentRight="true"
+          android:layout_alignParentTop="true"
+          android:text=" Linear Algebraic Equation"
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:textSize="32dp" 
+          android:textColor="#F00"
+          android:background="#FFFF00"/>
+
+   <Button
+       android:id="@+id/cramer"
+       android:layout_width="200dp"
+       android:layout_height="60dp"
+       android:layout_below="@+id/textView1"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="71dp"
+       android:text="Cramer&apos;s Rule" />
+   <Button
+       android:id="@+id/gauss"
+       android:layout_width="200dp"
+       android:layout_height="60dp"
+       android:layout_below="@+id/cramer"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="61dp"
+       android:text="Gauss-Seidal Method" />
+    <Button
+       android:id="@+id/elimination"
+       android:layout_width="200dp"
+       android:layout_height="60dp"
+       android:layout_below="@+id/gauss"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="61dp"
+       android:text="Elimination Of Unknowns Y Combining" />
+</RelativeLayout>
+</ScrollView>
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/s1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical">
+    <ScrollView android:id="@+id/scrvw14"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <AbsoluteLayout
+ android:layout_width="fill_parent"
+        android:layout_height="fill_parent">  
+ <TextView
+     android:id="@+id/textView1"
+     android:layout_width="match_parent"
+     android:layout_height="70dp"
+     android:layout_alignParentLeft="true"
+     android:layout_alignParentTop="true"
+     android:background="#FFFF00"
+     android:text=" Ordinary Differential Equation"
+     android:textAppearance="?android:attr/textAppearanceLarge"
+     android:textColor="#F00"
+     android:textSize="26dp" />
+
+ <Button
+     android:id="@+id/euler"
+     android:layout_width="200dp"
+     android:layout_height="60dp"
+     android:layout_x="60dp"
+     android:layout_y="100dp"
+     android:text="Euler Method" />
+
+ <Button
+     android:id="@+id/runge"
+     android:layout_width="200dp"
+     android:layout_height="60dp"
+     android:layout_x="60dp"
+     android:layout_y="210dp"
+     android:text="Runge-Kutta Method" />
+
+</AbsoluteLayout>
+</ScrollView>
+</AbsoluteLayout>

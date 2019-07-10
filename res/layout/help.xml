@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    
+    android:layout_height="match_parent" 
+    android:background="@drawable/h1"
+    android:orientation="vertical">
+<ScrollView android:id="@+id/scrvw7"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <AbsoluteLayout
+ android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="253dp"
+        android:layout_height="wrap_content"
+        android:layout_x="43dp"
+        android:layout_y="30dp"
+        android:textColor="#008E39"
+        android:text="It is extremely useful for the students taking a course on Numerical Analysis, as it will help them to compare and analyse the data given in their text-books.
+
+It will also serve as an helping hand for classroom lectures, as students and instructors can verify their results right away, without needing to write their own algorithms, or buying expensive softwares like MATLAB.
+
+I have taken utmost care to make sure that the algorithms used are stable, and consistent. A lot of equations and data was used to test the app and the results were compared with all the leading softwares available. The results were in very satisfactory.
+
+"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+</AbsoluteLayout>
+</ScrollView>
+</AbsoluteLayout>

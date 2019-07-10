@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/s2"
+    android:orientation="vertical" >
+    <ScrollView android:id="@+id/scrvw15"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+       <RelativeLayout
+ android:layout_width="fill_parent"
+        android:layout_height="fill_parent">  
+    <TextView
+          android:id="@+id/textView1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentRight="true"
+          android:layout_alignParentTop="true"
+          android:text=" Root Of Equation"
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:textSize="32dp" 
+          android:textColor="#F00"
+          android:background="#FFFF00"/>
+
+    <Button
+        android:id="@+id/bisection"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/textView1"
+             android:layout_alignParentTop="true"
+     android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:text="Bisection Method" />
+
+    <Button
+        android:id="@+id/secant"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+             android:layout_alignParentTop="true"
+     android:layout_centerHorizontal="true"
+        android:layout_alignLeft="@+id/bisecction"
+        android:layout_below="@+id/bisecction"
+        android:layout_marginTop="175dp"
+        android:text="Secant Method" />
+    
+    <Button
+        android:id="@+id/newton"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/bisecction"
+        android:layout_alignParentTop="true"
+        android:layout_below="@+id/bisecction"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="275dp"
+        android:text="Newton-Rapson Method" />
+    
+    <Button
+        android:id="@+id/falesp"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/bisecction"
+        android:layout_alignParentTop="true"
+        android:layout_below="@+id/bisecction"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="375dp"
+        android:text="False-Position Method" />
+</RelativeLayout>
+
+</ScrollView>
+</RelativeLayout>

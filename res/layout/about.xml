@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    
+    android:layout_height="match_parent" 
+    android:background="@drawable/au"
+    android:orientation="vertical">
+<ScrollView android:id="@+id/scrvw1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <AbsoluteLayout
+ android:layout_width="fill_parent"
+        android:layout_height="fill_parent">    
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="298dp"
+        android:layout_height="wrap_content"
+        android:layout_x="4dp"
+        android:layout_y="80dp"
+        android:text="This application is designed by S Abu Owais (MS CSIT - NED, BS CS - KU), abu_owais@yahoo.com, 92.344.2124471, NEDIAN, KURIAN, ISSARIAN"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#008E39" />
+
+</AbsoluteLayout>
+</ScrollView>
+</AbsoluteLayout>

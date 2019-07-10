@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+     <AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+         android:id="@+id/widget0"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:background="@drawable/bg2" >
+<ScrollView android:id="@+id/scrvw17"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <AbsoluteLayout
+ android:layout_width="fill_parent"
+        android:layout_height="fill_parent">  
+      <TextView
+          android:id="@+id/textView1"
+          android:layout_width="wrap_content"
+          android:layout_height="44dp"
+          android:layout_x="84dp"
+          android:layout_y="11dp"
+          android:text="Secant Method"
+          android:textAppearance="?android:attr/textAppearanceLarge" />
+
+      <TextView
+          android:id="@+id/textView2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_x="6dp"
+          android:layout_y="48dp"
+          android:text="Equation: "
+          android:textAppearance="?android:attr/textAppearanceMedium" />
+
+      <TextView
+          android:id="@+id/textView3"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_x="27dp"
+          android:layout_y="75dp"
+          android:text="x^3 " />
+
+      <TextView
+          android:id="@+id/textView4"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_x="67dp"
+          android:layout_y="75dp"
+          android:text="+ x^2" />
+
+      <TextView
+          android:id="@+id/textView5"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_x="117dp"
+          android:layout_y="75dp"
+          android:text="+ x " />
+
+      <TextView
+          android:id="@+id/textView6"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_x="157dp"
+          android:layout_y="75dp"
+          android:text="+ const. " />
+
+      <EditText
+          android:id="@+id/x3_tb"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_x="14dp"
+          android:layout_y="95dp"
+          android:ems="2"
+          android:inputType="number|numberDecimal|numberSigned" />
+
+      <EditText
+          android:id="@+id/x2_tb"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_x="68dp"
+          android:layout_y="95dp"
+          android:ems="2"
+          android:inputType="number|numberDecimal|numberSigned" >
+
+          
+      </EditText>
+
+      <EditText
+          android:id="@+id/x_tb"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_x="118dp"
+          android:layout_y="95dp"
+          android:ems="2"
+          android:inputType="number|numberDecimal|numberSigned" />
+
+      <EditText
+          android:id="@+id/const_tb"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_x="167dp"
+          android:layout_y="95dp"
+          android:ems="2"
+          android:inputType="number|numberDecimal|numberSigned" />
+
+      <TextView
+          android:id="@+id/textView7"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_x="15dp"
+          android:layout_y="145dp"
+          android:text="Enter values for a and b : "
+          android:textAppearance="?android:attr/textAppearanceMedium" />
+
+      <TextView
+          android:id="@+id/textView8"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_x="20dp"
+          android:layout_y="180dp"
+          android:text="a : " />
+
+      <TextView
+          android:id="@+id/textView9"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_x="20dp"
+          android:layout_y="222dp"
+          android:text="b : " />
+
+      <EditText
+          android:id="@+id/a_tb"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_x="46dp"
+          android:layout_y="172dp"
+          android:ems="6"
+          android:inputType="number|numberDecimal|numberSigned" >
+
+          
+      </EditText>
+
+      <EditText
+          android:id="@+id/b_tb"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_x="46dp"
+          android:layout_y="216dp"
+          android:ems="6"
+          android:inputType="number|numberDecimal|numberSigned" />
+
+      <TextView
+          android:id="@+id/textView10"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_x="7dp"
+          android:layout_y="273dp"
+          android:text="Enter Itertaion : " />
+
+      <EditText
+          android:id="@+id/itr_tb"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_x="114dp"
+          android:layout_y="270dp"
+          android:ems="6"
+          android:inputType="number" >
+
+          
+      </EditText>
+
+      <EditText
+          android:id="@+id/err_tb"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_x="74dp"
+          android:layout_y="321dp"
+          android:ems="8"
+          android:inputType="number|numberDecimal|numberSigned" >
+
+      </EditText>
+
+      <TextView
+          android:id="@+id/textView11"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_x="20dp"
+          android:layout_y="330dp"
+          android:text="Error : " />
+
+      <Button
+          android:id="@+id/calc_bt"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_x="214dp"
+          android:layout_y="376dp"
+          android:text="Calc." />
+
+      <TextView
+          android:id="@+id/textView12"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_x="37dp"
+          android:layout_y="396dp"
+          android:text="Answer : " />
+
+      <TextView
+          android:id="@+id/ans_lb"
+          android:layout_width="170dp"
+          android:layout_height="56dp"
+          android:layout_x="32dp"
+          android:layout_y="420dp"
+          android:text=" " />
+
+      <TextView
+          android:id="@+id/fail_lb"
+          android:layout_width="99dp"
+          android:layout_height="66dp"
+          android:layout_x="205dp"
+          android:layout_y="424dp"
+          android:text=" "
+          android:textAppearance="?android:attr/textAppearanceSmall" />
+     
+</AbsoluteLayout>
+</ScrollView>
+     </AbsoluteLayout>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2" >
+  <ScrollView android:id="@+id/scrvw13"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <AbsoluteLayout
+ android:layout_width="fill_parent"
+        android:layout_height="fill_parent">    
+    <TextView
+    android:id="@+id/textView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    
+    android:layout_alignParentTop="true"
+    android:background="#FFFF00"
+    android:text=" Newton Rapshon Method"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:textColor="#F00"
+    android:textSize="28dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="4dp"
+        android:layout_y="71dp"
+        android:text="Equation: "
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="18dp"
+        android:layout_y="102dp"
+        android:text="x3 + " />
+
+    <EditText
+        android:id="@+id/textBox6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="11dp"
+        android:layout_y="130dp"
+        android:ems="2"
+        android:inputType="number|numberDecimal|numberSigned" >
+        
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="175dp"
+        android:layout_y="102dp"
+        android:text="cont." />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="129dp"
+        android:layout_y="102dp"
+        android:text="x +" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="72dp"
+        android:layout_y="102dp"
+        android:text="x2 + " />
+
+    <EditText
+        android:id="@+id/textBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="68dp"
+        android:layout_y="130dp"
+        android:ems="2"
+        android:inputType="number|numberDecimal|numberSigned" />
+
+    <EditText
+        android:id="@+id/textBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="121dp"
+        android:layout_y="130dp"
+        android:ems="2"
+        android:inputType="number|numberDecimal|numberSigned" />
+
+    <EditText
+        android:id="@+id/textBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="177dp"
+        android:layout_y="130dp"
+        android:ems="2"
+        android:inputType="number|numberDecimal|numberSigned" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="12dp"
+        android:layout_y="192dp"
+        android:text="first approximation : " />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="18dp"
+        android:layout_y="270dp"
+        android:text="max. number of iterations : " />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="41dp"
+        android:layout_y="234dp"
+        android:text="max. error :" />
+
+    <EditText
+        android:id="@+id/textBox9"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_x="210dp"
+        android:layout_y="217dp"
+        android:ems="2"
+        android:inputType="number|numberDecimal|numberSigned" />
+
+    <EditText
+        android:id="@+id/textBox8"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_x="208dp"
+        android:layout_y="174dp"
+        android:ems="2"
+        android:inputType="number|numberDecimal|numberSigned" >
+        
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="10dp"
+        android:layout_y="321dp"
+        android:text="Answer : " />
+
+    <EditText
+        android:id="@+id/textBox10"
+        android:layout_width="58dp"
+        android:layout_height="wrap_content"
+        android:layout_x="208dp"
+        android:layout_y="261dp"
+        android:ems="2"
+        android:inputType="number|numberDecimal|numberSigned" >
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/label10"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_x="1dp"
+        android:layout_y="418dp" />
+
+    <TextView
+        android:id="@+id/label9"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_x="0dp"
+        android:layout_y="356dp" />
+
+    <TextView
+        android:id="@+id/label11"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:layout_x="0dp"
+        android:layout_y="463dp" />
+
+    <Button
+        android:id="@+id/btn"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="228dp"
+        android:layout_y="302dp"
+        android:text="Submit" />
+
+</AbsoluteLayout>
+</ScrollView>
+</AbsoluteLayout>

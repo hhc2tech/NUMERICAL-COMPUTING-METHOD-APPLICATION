@@ -1,0 +1,84 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fyp_numerical"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        >
+        
+          <activity
+            android:name=".splash_screen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+ 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+            <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         
+         
+        
+         <activity android:name=".start_main" >
+        </activity>
+         <activity android:name=".about" >
+        </activity>
+        
+        <activity android:name=".help" >
+        </activity>
+        <activity android:name=".root_eq" >
+        </activity>
+        <activity android:name=".bisection" >
+        </activity>
+         <activity android:name=".secant" >
+             </activity>
+         <activity android:name=".newton" >
+             </activity>
+         <activity android:name=".falsep" >
+             </activity>        
+             <activity android:name=".inter_eq" >
+        </activity>
+        <activity android:name=".ndd" >
+        </activity>
+        <activity android:name="lag" >
+        </activity>
+        <activity android:name=".linear_eq" >
+        </activity>
+         <activity android:name=".gauss" >
+        </activity>
+       <activity android:name=".cramer" >
+        </activity>
+       <activity android:name=".elimination" >
+        </activity> 
+        <activity android:name=".order_eq" >
+        </activity>
+        <activity android:name=".euler" >
+        </activity>
+        <activity android:name=".runge_kutta" >
+        </activity>
+       
+       
+      
+    </application>
+    
+
+</manifest>

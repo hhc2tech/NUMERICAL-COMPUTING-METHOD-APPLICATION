@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2" >
+<ScrollView android:id="@+id/scrvw16"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <AbsoluteLayout
+ android:layout_width="fill_parent"
+        android:layout_height="fill_parent">  
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#FFFF00"
+        android:text=" Runge kutta Method"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#F00"
+        android:textSize="32dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="10dp"
+        android:layout_y="46dp"
+        android:text="Equation :"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="10dp"
+        android:layout_y="75dp"
+        android:text="x^2 + " />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="56dp"
+        android:layout_y="75dp"
+        android:text="x + " />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="253dp"
+        android:layout_y="75dp"
+        android:text="y^2" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="204dp"
+        android:layout_y="75dp"
+        android:text="y + " />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="98dp"
+        android:layout_y="75dp"
+        android:text="e + " />
+
+    <EditText
+        android:id="@+id/x2v_tb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="5dp"
+        android:layout_y="102dp"
+        android:ems="2"
+        android:inputType="number|numberDecimal|numberSigned" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/xv_tb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="49dp"
+        android:layout_y="102dp"
+        android:ems="2"
+        android:inputType="number|numberDecimal|numberSigned" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="140dp"
+        android:layout_y="75dp"
+        android:text="const. +" />
+
+    <EditText
+        android:id="@+id/ev_tb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="96dp"
+        android:layout_y="102dp"
+        android:ems="2"
+        android:inputType="number|numberDecimal|numberSigned" />
+
+    <EditText
+        android:id="@+id/conv_tb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="142dp"
+        android:layout_y="102dp"
+        android:ems="2"
+        android:inputType="number|numberDecimal|numberSigned" />
+
+    <EditText
+        android:id="@+id/yv_tb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="199dp"
+        android:layout_y="102dp"
+        android:ems="2"
+        android:inputType="number|numberDecimal|numberSigned" />
+
+    <EditText
+        android:id="@+id/y2v_tb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="248dp"
+        android:layout_y="102dp"
+        android:ems="2"
+        android:inputType="number|numberDecimal|numberSigned" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="7dp"
+        android:layout_y="148dp"
+        android:text="Enter Value of x and y :" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="10dp"
+        android:layout_y="176dp"
+        android:text="x :" />
+
+    <EditText
+        android:id="@+id/x_tb"
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:layout_x="38dp"
+        android:layout_y="172dp"
+        android:ems="10"
+        android:inputType="number|numberDecimal|numberSigned" >
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="120dp"
+        android:layout_y="176dp"
+        android:text="y : " />
+
+    <EditText
+        android:id="@+id/y_tb"
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:layout_x="156dp"
+        android:layout_y="172dp"
+        android:ems="10"
+        android:inputType="number|numberDecimal|numberSigned" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="12dp"
+        android:layout_y="220dp"
+        android:text="Enter value of h :" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="44dp"
+        android:layout_y="247dp"
+        android:text="h : " />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="22dp"
+        android:layout_y="292dp"
+        android:text="iteration : " />
+
+    <EditText
+        android:id="@+id/h_tb"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_x="80dp"
+        android:layout_y="241dp"
+        android:ems="10"
+        android:inputType="number|numberDecimal|numberSigned" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/xn_tb"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_x="88dp"
+        android:layout_y="288dp"
+        android:ems="10"
+        android:inputType="number|numberDecimal" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="12dp"
+        android:layout_y="331dp"
+        android:text="Answer : " />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="16dp"
+        android:layout_y="356dp"
+        android:text="Values of k : " />
+
+    <TextView
+        android:id="@+id/k1_lb"
+        android:layout_width="72dp"
+        android:layout_height="46dp"
+        android:layout_x="4dp"
+        android:layout_y="386dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/k2_lb"
+        android:layout_width="71dp"
+        android:layout_height="50dp"
+        android:layout_x="83dp"
+        android:layout_y="386dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/k3_lb"
+        android:layout_width="72dp"
+        android:layout_height="48dp"
+        android:layout_x="159dp"
+        android:layout_y="386dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/k4_lb"
+        android:layout_width="71dp"
+        android:layout_height="50dp"
+        android:layout_x="234dp"
+        android:layout_y="386dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/y_lb"
+        android:layout_width="226dp"
+        android:layout_height="wrap_content"
+        android:layout_x="44dp"
+        android:layout_y="456dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="22dp"
+        android:layout_y="456dp"
+        android:text="y : " />
+
+    <Button
+        android:id="@+id/btn1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="214dp"
+        android:layout_y="328dp"
+        android:text="submit" />
+
+</AbsoluteLayout>
+</ScrollView>
+</AbsoluteLayout>
